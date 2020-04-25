@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding:0;
+    border:0;
+    background: #afb2bd url(images/pattern_grigio.jpg) repeat 0 0;
+}
+
+#header{
+    margin: 8px auto;
+    padding: 0;
+    border-bottom: 2px solid #172563;
+    width: 820px;
+    height: 100px;
+}
+
+#logo{
+    margin: 0;
+    padding: 4px 0 0 0;
+    border: 0;
+    background-color: transparent;
+    width: 291px;
+    height: 100px;
+    float:left;
+}
+
+#logo a{
+    display: block;
+    width:291px;
+    height:80px;
+    text-indent: -9999px;
+    background: transparent url(logo/LOGO_PROGETTO.png) no-repeat 0 0;
+}
+
+#menu{
+    margin: 4px 0 0 0 ;
+    padding: 0;
+    border:1px solid #abb8e6f3;
+    background-color: transparent;
+    width: 500px;
+    height: 80px;
+    float: right;
+}
+
+#menu ul{
+    list-style: decimal-leading-zero;
+    display: block;
+    margin: 0 auto;
+    padding: 30px 0 0 0;
+    width: 400px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu li{
+    display: inline;
+    margin: 0;
+    padding: 0 6px;
+    border-right: 1px solid #abb8e6f3;
+    border-left: 1px solid #abb8e6f3;
+}
+
+#menu a:link,
+#menu a:visited{
+    color: #000000;
+    text-decoration: none;
+    font-variant: small-caps;
+}
+
+#menu a:hover,
+#menu a:active{
+    color: #66e9fa9c;
+    background-color: #172563;
+}
+
+#contatti{
+    margin: 0 auto 8px auto;
+    padding: 0;
+    border: 2px solid #172563;
+    width: 820px;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contatti a:link,
+#contatti a:visited{
+    color: #000000;
+}
+
+#contatti a:hover,
+#contatti a:active{
+    color: #66e9fa9c;
+    background-color: #172563;
+}
+
+.contatto{
+    margin: 5px;
+    padding: 10px;
+    border: 0;
+    height: 30px;
+    background-color: #c7cce0f3;
+}
+
+.contatto img{
+    margin: 0;
+    padding-right:10px;
+    border: 0;
+}
+
+#fondopagina{
+    margin: 0 auto;
+    padding: 2px 0;
+    border: 0;
+    height: 16px;
+    width: 820px;
+    background-color: #172563;
+    font-size: 12px;
+    color: #66e9fa9c;
+    text-align: center;
+}
