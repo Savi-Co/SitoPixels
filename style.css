@@ -9,7 +9,7 @@ body{
     margin: 8px auto;
     padding: 0;
     border-bottom: 2px solid #172563;
-    width: 820px;
+    width: 1000px;
     height: 100px;
 }
 
@@ -34,9 +34,9 @@ body{
 #menu{
     margin: 4px 0 0 0 ;
     padding: 0;
-    border:1px solid #abb8e6f3;
+    border:1px solid #001049f3;
     background-color: transparent;
-    width: 500px;
+    width: 600px;
     height: 80px;
     float: right;
 }
@@ -55,8 +55,8 @@ body{
     display: inline;
     margin: 0;
     padding: 0 6px;
-    border-right: 1px solid #abb8e6f3;
-    border-left: 1px solid #abb8e6f3;
+    border-right: 1px solid #001049f3;
+    border-left: 1px solid #001049f3;
 }
 
 #menu a:link,
@@ -76,7 +76,7 @@ body{
     margin: 0 auto;
     padding: 0;
     border: 0;
-    width:820px;
+    width:1000px;
 }
 
 #description p{
@@ -90,34 +90,34 @@ body{
     margin: 0 auto;
     padding: 0;
     border: 0;
-    width: 820px;
+    width: 1020px;
 }
 
 #buy canvas{
     float:left;
-    margin: 16px;
+    margin: 11px;
     padding: 0;
     border: 1px solid #172563
 }
 
 #spazipubbl{
-    width: 820px;
+    width: 1000px;
     margin: 0 auto;
     padding: 0;
 }
 
 #spazipubbl canvas{
-    margin: 5px 0;
+    margin: 5px 0 0 0;
     padding: 0;
     border: 1px solid #172563;
 }
 
 #fondopagina{
     margin: 0 auto;
-    padding: 2px 0;
+    padding:2px 0;
     border: 0;
     height: 16px;
-    width: 820px;
+    width: 1000px;
     background-color: #172563;
     font-size: 12px;
     color: #66e9fa9c;
