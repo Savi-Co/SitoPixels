@@ -6,16 +6,16 @@ body{
 }
 
 #header{
-    margin: 8px auto;
+    margin: 3px auto;
     padding: 0;
     border-bottom: 2px solid #172563;
     width: 1000px;
-    height: 100px;
+    height: 90px;
 }
 
 #logo{
     margin: 0;
-    padding: 4px 0 0 0;
+    padding: 3px 0 0 0;
     border: 0;
     background-color: transparent;
     width: 291px;
@@ -32,13 +32,14 @@ body{
 }
 
 #menu{
-    margin: 4px 0 0 0 ;
+    margin: 3px 0 0 0 ;
     padding: 0;
-    border:1px solid #001049f3;
-    background-color: transparent;
+    border:0;
+    background-color: #56578f;
     width: 600px;
     height: 80px;
     float: right;
+    color:#fff;
 }
 
 #menu ul{
@@ -46,7 +47,7 @@ body{
     display: block;
     margin: 0 auto;
     padding: 30px 0 0 0;
-    width: 400px;
+    width: 510px;
     font-size: 13px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -54,22 +55,24 @@ body{
 #menu li{
     display: inline;
     margin: 0;
-    padding: 0 6px;
-    border-right: 1px solid #001049f3;
-    border-left: 1px solid #001049f3;
+    padding: 2px 6px;
+    border-right: 1px solid #3f4068;
+    border-left: 1px solid #3f4068;
 }
 
 #menu a:link,
 #menu a:visited{
-    color: #000000;
     text-decoration: none;
     font-variant: small-caps;
+    padding: 5px;
+    color:#fff;
 }
 
 #menu a:hover,
 #menu a:active{
-    color: #66e9fa9c;
-    background-color: #172563;
+    background-color: #3f4068;
+    padding: 5px;
+    color:#fff;
 }
 
 #description{
