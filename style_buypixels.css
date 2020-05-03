@@ -1,0 +1,128 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: #afb2bd url(images/pattern_grigio.jpg) repeat 0 0;
+}
+
+#header {
+    margin: 3px auto;
+    padding: 0;
+    border-bottom: 2px solid #172563;
+    width: 1000px;
+    height: 90px;
+}
+
+#logo {
+    margin: 0;
+    padding: 3px 0 0 0;
+    border: 0;
+    background-color: transparent;
+    width: 291px;
+    height: 100px;
+    float: left;
+}
+
+#logo a {
+        display: block;
+        width: 291px;
+        height: 80px;
+        text-indent: -9999px;
+        background: transparent url(logo/LOGO_PROGETTO.png) no-repeat 0 0;
+}
+
+#menu {
+    margin: 3px 0 0 0;
+    padding: 0;
+    border: 0;
+    background-color: #56578f;
+    width: 600px;
+    height: 80px;
+    float: right;
+    color: #fff;
+}
+
+    #menu ul {
+        list-style: decimal-leading-zero;
+        display: block;
+        margin: 0 auto;
+        padding: 30px 0 0 0;
+        width: 510px;
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    #menu li {
+        display: inline;
+        margin: 0;
+        padding: 2px 6px;
+        border-right: 1px solid #3f4068;
+        border-left: 1px solid #3f4068;
+    }
+
+    #menu a:link,
+    #menu a:visited {
+        text-decoration: none;
+        font-variant: small-caps;
+        padding: 5px;
+        color: #fff;
+    }
+
+    #menu a:hover,
+    #menu a:active {
+        background-color: #3f4068;
+        padding: 5px;
+        color: #fff;
+    }
+
+#description {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1000px;
+}
+
+    #description p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        background-color: transparent;
+        text-align: center;
+    }
+
+#buy {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: 1020px;
+}
+
+    #buy canvas {
+        float: left;
+        margin: 11px;
+        padding: 0;
+        border: 1px solid #172563
+    }
+
+#spazipubbl {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+    #spazipubbl canvas {
+        margin: 5px 0 0 0;
+        padding: 0;
+        border: 1px solid #172563;
+    }
+
+#fondopagina {
+    margin: 0 auto;
+    padding: 2px 0;
+    border: 0;
+    height: 16px;
+    width: 1000px;
+    background-color: #172563;
+    font-size: 12px;
+    color: #66e9fa9c;
+    text-align: center;
+}
