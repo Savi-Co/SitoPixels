@@ -36,7 +36,7 @@ body{
     margin: 3px 0 0 0 ;
     padding: 0;
     border:0;
-    background-color: #56578f;
+    background-color: #172563;
     width: 600px;
     height: 80px;
     float: right;
@@ -57,22 +57,20 @@ body{
     display: inline;
     margin: 0;
     padding: 2px 6px;
-    border-right: 1px solid #3f4068;
-    border-left: 1px solid #3f4068;
 }
 
 #menu a:link,
 #menu a:visited{
     text-decoration: none;
     font-variant: small-caps;
-    padding: 5px;
+    padding: 6px;
     color:#fff;
 }
 
 #menu a:hover,
 #menu a:active{
-    background-color: #3f4068;
-    padding: 5px;
+    background-color: #11133f;
+    padding: 6px;
     color:#fff;
 }
 
